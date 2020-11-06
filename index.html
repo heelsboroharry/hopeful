@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Election</title>
+        <style>
+            #canidate1{
+                color: #134e17;
+            }
+             #canidate2{
+                color: #5d2977;
+            }
+        </style>
+    </head>
+    <body>
+<h1>Canidates<br> <span id="canidate1">Canidate #1</span> vs. <span id="canidate2">Canidate #2 </span>
+</h1>
+<button><a href="https://docs.google.com/forms/d/e/1FAIpQLSdwSLvV8Fd6zTtkPP3qNpacw33nslOBskMLP9REFv8aycZJmA/viewform?usp=sf_link">Vote Here</a></button>
+<script>
+    // document.body
+        var headingEl = document.getElementById("canidate2");
+        console.log(headingEl);
+        headingEl.innerHTML = "test";
+         var headingEl = document.getElementById("canidate1");
+        console.log(headingEl);
+        headingEl.innerHTML = "test";
+</script>
+    </body>
+</html>
